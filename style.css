@@ -31,6 +31,6 @@ body {
     justify-content: center;
 }
 canvas {
-    border: 3px solid black;
-    background: green;
+    border: 3px solid rgb(0, 0, 0);
+    background: url("https://www.si.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTg5NzM2MDM3Mjk0MDIzOTA2/jayson-tatum.jpg") 0 0/100% 100% no-repeat;
 }
