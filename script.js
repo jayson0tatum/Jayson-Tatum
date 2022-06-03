@@ -16,7 +16,7 @@ let apple = {
 };
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min) + min);
-}
+}l
 
 function loop() {
     requestAnimationFrame(loop);
@@ -45,7 +45,7 @@ function loop() {
     }
     context.fillStyle = "red";
     context.fillRect(apple.x, apple.y, grid - 1, grid - 1);
-    context.fillStyle = "white";
+    context.fillStyle = "orange";
     snake.cells.forEach(function (cell, index) {
         context.fillRect(cell.x, cell.y, grid - 1, grid - 1);
         if (cell.x === apple.x && cell.y === apple.y) {
